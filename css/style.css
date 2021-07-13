@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+h2 {
+  color: #ff5000;
+}
+
+h3 {
+  color: #2f56a3;
+ text-align: left;
+}
+
+h4 {
+ color: #000000;
+ text-align: left;
+ margin-bottom: -1px;
+}
+
+.profile header {
+ text-align: center;
+}
+
+.featured-image {
+ width: 100%;
+}
+
+.profile img {
+ width: 200px;
+}
+
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ border-radius: 7px;
+ padding: 45px 20px;
+ margin-top: 8px;
+ text-align: justify;
+}
+* {
+  box-sizing: border-box;
+}
+
+.flex-container-column {
+  display: flex;
+  /* properti pendukung */
+  flex-direction: column;
+  margin: 5px auto;
+  text-align: left;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.box {
+  flex-basis: 20%;
+  /* properti pendukung */
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+}
+
+.double {
+  flex-basis: 50%;
+  text-align: left;
+  padding: 0px;
+}
+
+
+@media screen and (max-width: 670px) {
+  .box {
+    padding: 10px;
+  }
+  .double {
+      padding: 10px;
+  }
+  h2 {
+    font-size: 8px;
+  }
+  
+  h3 {
+    font-size: 6px;
+  }
+  
+  h4 {
+   font-size: 5px;
+  }
+}

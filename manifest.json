@@ -1,0 +1,21 @@
+{
+    "name": "Curriculum Vitae",
+    "short_name": "CV",
+    "description": "Daftar Riwayat Hidup",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#4b8ac7",
+    "theme_color": "#2f56a3",
+    "icons": [
+        {
+            "src": "/image/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+        {
+            "src": "/image/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
